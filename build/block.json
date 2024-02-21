@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/testingblock",
+  "version": "0.1.0",
+  "title": "Testingblock",
+  "category": "design",
+  "icon": "smiley",
+  "description": "Prototype code testing block.",
+  "example": {},
+  "supports": {
+    "html": true
+  },
+  "textdomain": "testingblock",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    }
+  }
+}
